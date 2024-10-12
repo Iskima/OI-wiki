@@ -67,11 +67,11 @@ $$
 \end{align}
 $$
 
-设 $P$ 中存在一个相交路径组 $P_i:a_1 \to u \to b_1,P_j:a_2 \to u \to b_2$，则必然存在和它相对的一个相交路径组 $P_i'=a_1\to u\to b_2,P_j'=a_2\to u\to b_1$，$P'$ 的其他路径与 $P$ 相同。可得 $\omega(P)=\omega(P'),t(P)=t(P')\pm 1$。
+令 $(i, j)$ 是使得 $P$ 中存在相交路径组 $P_i:a_1 \to u \to b_1,P_j:a_2 \to u \to b_2$ 的最小二元组，则必然存在和它相对的一个相交路径组 $P_i'=a_1\to u\to b_2,P_j'=a_2\to u\to b_1$，$P'$ 的其他路径与 $P$ 相同，且 $P$ 和 $P'$ 一一对应。可得 $\omega(P)=\omega(P')$，$t(P)$ 与 $t(P')$ 的奇偶性不同。
 
 因此我们有 $\sum\limits_{V:A\to B}(-1)^{t(\sigma)}\prod\limits_{i=1}^n \omega(V_i)=0$。
 
-则 $\det(M)=\sum\limits_{U:A\to B}(-1)^{t(U)}\prod\limits_{i=1}^n \omega(U_i)=0$。
+则 $\det(M)=\sum\limits_{U:A\to B}(-1)^{t(U)}\prod\limits_{i=1}^n \omega(U_i)$。
 
 证毕[^1]。
 
